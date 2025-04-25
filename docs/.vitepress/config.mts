@@ -20,8 +20,8 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{"text":"技术文档","items":[{"text":"第一个文档","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0"}]}],
-    sidebar: [{"text":"技术文档","items":[{"text":"第一个文档","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0"}]}],
+    nav: [{"text":"技术文档","items":[{"text":"云南&新疆","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b9607c30-2194-11f0-adbe-67b93461d40c"},{"text":"哈尔滨","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b961dbc0-2194-11f0-adbe-67b93461d40c"},{"text":"上海","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b9631440-2194-11f0-adbe-67b93461d40c"}]},{"text":"日记","link":""}],
+    sidebar: [{"text":"技术文档","items":[{"text":"云南&新疆","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b9607c30-2194-11f0-adbe-67b93461d40c"},{"text":"哈尔滨","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b961dbc0-2194-11f0-adbe-67b93461d40c"},{"text":"上海","link":"/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/b9631440-2194-11f0-adbe-67b93461d40c"}]},{"text":"日记","link":""}],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lyming99/wenzdoc_web' }
     ],
