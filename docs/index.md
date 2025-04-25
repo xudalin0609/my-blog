@@ -2,31 +2,40 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 hero:
-  name: "温知文档"
+  name: "大林的博客"
   text: ""
-  tagline: "做项目，就用温知文档～"
+  tagline: "一些关于技术,生活的胡思乱想"
   actions:
     - theme: brand
-      text: 立即下载
-      link: /download
+      text: 日记
+      link: /index
     - theme: alt
-      text: 使用帮助
-      link: /help
+      text: 3-stories
+      link: /index
+    - theme: alt
+      text: 技术文档
+      link: /index
 features:
-  - title: 文件夹存储
-    details: 一个项目一个文件夹，分模块存储项目文档，方便管理
-  - title: 快速搜索
-    details: 文档存到本地，搜索非常快速
-  - title: 自研富文本
-    details: 自主研发高性能富文本，支持10万字流畅编辑
-  - title: 自研思维导图
-    details: 自主研发思维导图，支持大量节点流畅编辑
-  - title: 无水印导出
-    details: 支持内容导出高清图片，无水印
-  - title: Makrdown 支持
-    details: 支持 Markdown 语法以及导入导出
-  - title: Git 同步
-    details: 使用 Git 同步文档，文档内容永不丢失
-  - title: 免费使用
-    details: 第一个版本免费，后续会有增值功能收费
+  - icon: 🛠️
+    title: 一些说明
+    details: 页面施工中
+
+  - icon: 🛠️
+    title: 菜鸟硬件工程师
+
+  - icon: 🛠️
+    title: 试图学习设计
+  
+  - icon: 🛠️
+    title: 想做些有趣的实体产品
 ---
+
+## 随便聊聊
+
+### 关于我
+
+一个半路出家的程序员，对技术和技术之外的很多事情都有兴趣，但半途而废的居多。目前告别了打工生涯，独立开发中。
+
+### 关于这里
+
+之前写过很多乱七八糟的东西，有一些碎碎念，有一些技术文档，还有些日记或者其他的什么东西。虽然自己不大会重看，但丢了还是有些可惜，索性都找一找，挪到这里，给自己留个纪念。会写些日记，写些技术文档，也能会有些其他的有的没的，比如硬件开发笔记？
