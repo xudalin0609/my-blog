@@ -3,10 +3,12 @@ import taskLists from 'markdown-it-task-checkbox'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "大林的博客",
-  description: "生活中那些七七八八的事情",
   markdown: {
     config: (md) => {
       md.use(taskLists)
+    },
+    image: {
+      lazyLoading: true
     }
   },
   head:[

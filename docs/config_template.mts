@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 import taskLists from 'markdown-it-task-checkbox'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "温知文档",
-  description: "温知文档,温知笔记,欢迎使用温知系列产品！",
+  title: "大林的博客",
   markdown: {
     config: (md) => {
       md.use(taskLists)

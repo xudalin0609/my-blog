@@ -1,1 +1,14 @@
-[{"name":"日记","uuid":"7744a460-21e5-11f0-adbe-67b93461d40c","isMarkdown":false,"link":null},{"name":"3-stories","uuid":"89b4f2d0-21e5-11f0-adbe-67b93461d40c","isMarkdown":false,"link":null}]
+[
+  {
+    "name": "日记",
+    "uuid": "7744a460-21e5-11f0-adbe-67b93461d40c",
+    "isMarkdown": false,
+    "link": null
+  },
+  {
+    "name": "3-stories",
+    "uuid": "89b4f2d0-21e5-11f0-adbe-67b93461d40c",
+    "isMarkdown": false,
+    "link": null
+  }
+]

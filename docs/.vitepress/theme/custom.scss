@@ -1,0 +1,22 @@
+// 定义布局变量
+$image-height: 200px; // 固定高度
+$gap: 20px; // 图片间距
+
+.image-row {
+  display: flex; // 启用弹性布局
+  gap: $gap; // 图片间距
+  margin: 20px 0;
+
+  .image-item {
+    flex: 1; // 等分剩余空间
+    height: $image-height; // 固定高度
+    min-width: 100px; // 最小宽度防止挤压
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; // 保持比例裁剪填充
+      border-radius: 4px;
+    }
+  }
+}

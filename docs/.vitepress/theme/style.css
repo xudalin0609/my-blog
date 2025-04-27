@@ -1,0 +1,13 @@
+.image-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.image-row img {
+  flex: 1;
+  object-fit: cover;
+  height: 300px; /* 可以根据需要调整高度 */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+} 
