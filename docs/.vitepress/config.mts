@@ -1,11 +1,24 @@
 import { defineConfig } from 'vitepress'
 import taskLists from 'markdown-it-task-checkbox'
+import container from 'markdown-it-container'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "大林的博客",
   markdown: {
     config: (md) => {
       md.use(taskLists)
+      md.use(container, 'image-row', {
+        validate: function(params) {
+          return params.trim().match(/^image-row\s*(.*)$/);
+        },
+        render: function (tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            return '<div class="image-row">\n';
+          } else {
+            return '</div>\n';
+          }
+        }
+      });
     },
     image: {
       lazyLoading: true
@@ -18,7 +31,7 @@ export default defineConfig({
         'name':'meta-name',
         'conent':'meta-content'
       }
-    ], 
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
