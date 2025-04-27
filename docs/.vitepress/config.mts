@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 import taskLists from 'markdown-it-task-checkbox'
 import container from 'markdown-it-container'
+import { getNavigation } from './genNav'
+
+const nav = getNavigation()
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "大林的博客",
@@ -8,7 +12,7 @@ export default defineConfig({
     config: (md) => {
       md.use(taskLists)
       md.use(container, 'image-row', {
-        validate: function(params) {
+        validate: function (params) {
           return params.trim().match(/^image-row\s*(.*)$/);
         },
         render: function (tokens, idx) {
@@ -24,26 +28,27 @@ export default defineConfig({
       lazyLoading: true
     }
   },
-  head:[
+  head: [
     [
       'meta',
       {
-        'name':'meta-name',
-        'conent':'meta-content'
+        'name': 'meta-name',
+        'conent': 'meta-content'
       }
     ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{"text":"日记","items":[{"text":"2025-04-25","link":"/vitepress/7744a460-21e5-11f0-adbe-67b93461d40c/5dcb3030-21e5-11f0-adbe-67b93461d40c"}]},{"text":"3-stories","items":[{"text":"上海","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b9631440-2194-11f0-adbe-67b93461d40c"},{"text":"哈尔滨","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b961dbc0-2194-11f0-adbe-67b93461d40c"},{"text":"云南&新疆","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b9607c30-2194-11f0-adbe-67b93461d40c"}]}],
-    sidebar: [{"text":"日记","items":[{"text":"2025-04-25","link":"/vitepress/7744a460-21e5-11f0-adbe-67b93461d40c/5dcb3030-21e5-11f0-adbe-67b93461d40c"}]},{"text":"3-stories","items":[{"text":"上海","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b9631440-2194-11f0-adbe-67b93461d40c"},{"text":"哈尔滨","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b961dbc0-2194-11f0-adbe-67b93461d40c"},{"text":"云南&新疆","link":"/vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b9607c30-2194-11f0-adbe-67b93461d40c"}]}],
+    nav: nav,
+    // nav: [{ "text": "技术文档", "items": [{ "text": "第一个文档", "link": "/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0" }, { "text": "第一个文档", "link": "/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0" }] }],
+    sidebar: nav,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lyming99/wenzdoc_web' }
+      { icon: 'github', link: 'https://github.com/xudalin0609' }
     ],
     //页脚
     footer: {
       message: '',
-      copyright: 'Copyright ©WenzDoc 2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">xxxx</a>',  
+      copyright: 'Copyright ©WenzDoc 2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">xxxx</a>',
     },
   }
 })

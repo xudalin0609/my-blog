@@ -4,27 +4,27 @@ layout: home
 hero:
   name: "大林的博客"
   text: ""
-  tagline: "一些关于技术,生活的胡思乱想"
+  tagline: "一些关于技术和生活的胡思乱想"
   actions:
     - theme: brand
       text: 日记
-      link: vitepress/7744a460-21e5-11f0-adbe-67b93461d40c/5dcb3030-21e5-11f0-adbe-67b93461d40c
+      link: vitepress/3-stories/上海
     - theme: alt
       text: 3-stories
-      link: vitepress/89b4f2d0-21e5-11f0-adbe-67b93461d40c/b9631440-2194-11f0-adbe-67b93461d40c
+      link: vitepress/日记/2025-04-25
     - theme: alt
       text: 技术文档
       link: /index
 features:
-  - icon: 🛠️
+  - icon: 🚧
     title: 页面施工中
     details: 各种功能待开发
 
-  - icon: 🛠️
+  - icon: 💡
     title: 菜鸟硬件工程师
     details: 看图识元器件水平
 
-  - icon: 🛠️
+  - icon: 🎨
     title: 试图学习设计
     details: 没有审美的我真的能做到么
   
@@ -45,6 +45,8 @@ features:
 
 ### todoList
 
-- [ ] 首页美化
+- [x] OSS图床
+- [x] 页面部署自动化
+- [ ] 增加个人简历页
 - [ ] 隐私页面加密
-- [ ] 页面部署自动化
+- [ ] 上传之前拍过的照片
