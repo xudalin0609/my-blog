@@ -7,7 +7,7 @@ const nav = getNavigation()
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "大林的博客",
+  title: "For 许泊茹",
   markdown: {
     config: (md) => {
       md.use(taskLists)
