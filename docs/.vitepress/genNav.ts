@@ -17,7 +17,7 @@ function generateNav(dir: string, baseDir: string = dir): any[] {
     const stat = fs.statSync(fullPath)
 
     if (stat.isDirectory()) {
-      if (file.startsWith('.')) continue
+      if (file.startsWith('.') || file.startsWith('pass')) continue
       
       const children = generateNav(fullPath, baseDir)
       if (children.length > 0) {
