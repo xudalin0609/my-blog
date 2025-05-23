@@ -48,7 +48,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: '',
-      copyright: 'Copyright ©WenzDoc 2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">xxxx</a>',
+      copyright: 'Copyright ©WenzDoc 2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025038845号-1</a>',
     },
   }
 })
