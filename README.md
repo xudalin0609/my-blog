@@ -1,3 +1,3 @@
 # 大林的个人博客
 
-<http://www.isxudl.cn>
+<http://www.isxudl.top>

@@ -48,7 +48,7 @@ export default defineConfig({
     //页脚
     footer: {
       message: '黑ICP备2025038845号-1 | 黑公网安备23010902010372号',
-      copyright: 'Copyright ©xudalin 2025" target="https://github.com/xudalin0609/my-blog"></a>',
+      copyright: 'Copyright ©xudalin 2025 <a href="https://github.com/xudalin0609/my-blog" target="_blank"></a>',
     },
   }
 })
