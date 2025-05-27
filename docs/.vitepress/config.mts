@@ -47,8 +47,8 @@ export default defineConfig({
     ],
     //页脚
     footer: {
-      message: '',
-      copyright: 'Copyright ©WenzDoc 2024 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025038845号-1</a>',
+      message: '黑ICP备2025038845号-1 | 黑公网安备23010902010372号',
+      copyright: 'Copyright ©xudalin 2025" target="https://github.com/xudalin0609/my-blog"></a>',
     },
   }
 })
