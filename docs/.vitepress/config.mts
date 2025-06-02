@@ -47,8 +47,8 @@ export default defineConfig({
     ],
     //页脚
     footer: {
-      message: '黑ICP备2025038845号-1 | 黑公网安备23010902010372号',
-      copyright: 'Copyright ©xudalin 2025 <a href="https://github.com/xudalin0609/my-blog" target="_blank"></a>',
+      message: 'Copyright © 2024-2025 <a href="https://github.com/xudalin0609/my-blog" target="_blank">大林的个人站</a>',
+      copyright: 'ICP备案 <a href="https://beian.miit.gov.cn/" target="_blank">黑ICP备2025038845号-1</a> | 黑公网安备 <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">23010902010372号</a>',
     },
   }
 })
