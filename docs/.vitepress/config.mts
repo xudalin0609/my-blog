@@ -51,6 +51,10 @@ export default defineConfig({
             text: '日记', items: [
               { text: '2025-04-25', link: '/diary/2025-04-25' },
               { text: '2025-05-01', link: '/diary/2025-05-01' },
+              { text: '2025-07-03', link: '/diary/2025-07-03' },
+              { text: '2025-07-21', link: '/diary/2025-07-21' },
+              { text: '包子和饺子', link: '/diary/steam-bun-jiaozi' },
+              { text: '写于三十岁的生日', link: '/diary/writed-when-thirty' },
             ]
           }
         ],
