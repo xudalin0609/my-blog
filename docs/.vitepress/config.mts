@@ -3,7 +3,7 @@ import taskLists from 'markdown-it-task-checkbox'
 import container from 'markdown-it-container'
 import { getNavigation } from './genNav'
 
-const nav = getNavigation()
+// const nav = getNavigation()
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -39,12 +39,32 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: nav,
-    // nav: [{ "text": "技术文档", "items": [{ "text": "第一个文档", "link": "/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0" }, { "text": "第一个文档", "link": "/vitepress/8c2fe830-c5bf-11ef-8ecd-bb885d28bca0/902eb420-c5bf-11ef-8ecd-bb885d28bca0" }] }],
-    sidebar: nav,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/xudalin0609' }
+    nav: [
+      { text: '日记', link: '/diary/2025-04-25' },
+      { text: '很久之前的东西', link: '/long-time-ago/long-time-ago' }
+
     ],
+    sidebar: {
+      "/diary/":
+        [
+          {
+            text: '日记', items: [
+              { text: '2025-04-25', link: '/diary/2025-04-25' },
+              { text: '2025-05-01', link: '/diary/2025-05-01' },
+            ]
+          }
+        ],
+        "/long-time-ago/":
+          [
+            {
+              text: '很久之前的东西', items: [
+                { text: '很久之前的东西', link: '/long-time-ago/long-time-ago' },
+                { text: '啤酒笔记', link: '/long-time-ago/beers' },
+              ]
+            }
+          ]
+    },
+
     //页脚
     footer: {
       message: 'Copyright © 2024-2025 <a href="https://github.com/xudalin0609/my-blog" target="_blank">大林的个人站</a>',
