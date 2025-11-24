@@ -42,9 +42,18 @@ export default defineConfig({
     nav: [
       { text: '日记', link: '/diary/2025-04-25' },
       { text: '很久之前的东西', link: '/long-time-ago/long-time-ago' }
+      { text: '杂七杂八', link: '/miscellaneous-writings/AI-coder-unemployment' },
 
     ],
     sidebar: {
+      "/miscellaneous-writings/":
+        [
+          {
+            text: '杂七杂八', items: [
+              { text: 'AI、程序员和失业', link: '/miscellaneous-writings/AI-coder-unemployment' },
+            ]
+          }
+        ],
       "/diary/":
         [
           {
