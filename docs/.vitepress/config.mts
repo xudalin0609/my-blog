@@ -52,6 +52,7 @@ export default defineConfig({
             text: '杂七杂八', items: [
               { text: 'AI、程序员和失业', link: '/miscellaneous-writings/AI-coder-unemployment' },
               { text: '我比AI强在哪?', link: '/miscellaneous-writings/when-use-ai' },
+              {text: '在小厂写代码', link: '/miscellaneous-writings/code-in-small-tech-companies'},
             ]
           }
         ],
